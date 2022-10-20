@@ -52,7 +52,6 @@ opt_in_rules:
   - identical_operands
   - implicit_return
   - implicitly_unwrapped_optional
-  - indentation_width
   - joined_default_parameter
   - last_where
   - legacy_multiple
@@ -61,7 +60,6 @@ opt_in_rules:
   - lower_acl_than_parent
   - missing_docs
   - modifier_order
-  - multiline_arguments
   - multiline_function_chains
   - multiline_literal_brackets
   - nimble_operator

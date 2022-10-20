@@ -33,13 +33,10 @@ private func buildCommand(tool: PackagePlugin.PluginContext.Tool,
     let configFile = workingDirectory.appending("swiftlist.yml").string
     try config.write(toFile: configFile, atomically: true, encoding: .utf8)
     // create build command
-    return .buildCommand(
-        displayName: "SwiftLint", executable: tool.path,
-        arguments: [
-            "lint",
-            "--cache-path", "\(workingDirectory)",
-            "--config", "\(configFile)",
-            "\(targetFiles).joined(separator: ", ")"
-        ]
-    )
+    var arguments = ["lint"]
+    arguments.append(contentsOf: ["--cache-path", "\(workingDirectory)"])
+    arguments.append(contentsOf: ["--config", "\(configFile)"])
+    arguments.append(contentsOf: targetFiles.map(\.string))
+    
+    return .buildCommand(displayName: "SwiftLint", executable: tool.path, arguments: arguments)
 }

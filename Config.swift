@@ -11,7 +11,6 @@ opt_in_rules:
   - anyobject_protocol
   - array_init
   - attributes
-  - balanced_xctest_lifecycle
   - capture_variable
   - closure_body_length
   - closure_end_indentation
@@ -43,7 +42,6 @@ opt_in_rules:
   - fallthrough
   - fatal_error_message
   - file_header
-  - file_name
   - file_name_no_space
   - file_types_order
   - first_where
@@ -59,7 +57,6 @@ opt_in_rules:
   - last_where
   - legacy_multiple
   - legacy_objc_type
-  - let_var_whitespace
   - literal_expression_end_indentation
   - lower_acl_than_parent
   - missing_docs
@@ -77,14 +74,12 @@ opt_in_rules:
   - number_separator
   - object_literal
   - optional_enum_case_matching
-  - overridden_super_call
   - override_in_extension
   - pattern_matching_keywords
   - prefer_nimble
   - prefer_self_in_static_references
   - prefer_self_type_over_type_of_self
   - prefer_zero_over_explicit_init
-  - prefixed_toplevel_constant
   - private_action
   - private_outlet
   - private_subject
@@ -119,9 +114,6 @@ opt_in_rules:
   - unused_declaration
   - unused_import
   - vertical_parameter_alignment_on_call
-  - vertical_whitespace_between_cases
-  - vertical_whitespace_closing_braces
-  - vertical_whitespace_opening_braces
   - weak_delegate
   - xct_specific_matcher
   - yoda_condition                                                       

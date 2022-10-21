@@ -36,7 +36,7 @@ private func buildCommand(tool: PackagePlugin.PluginContext.Tool,
     var arguments = ["lint"]
     arguments.append(contentsOf: ["--cache-path", "\(workingDirectory)"])
     arguments.append(contentsOf: ["--config", "\(configFile)"])
-    arguments.append(contentsOf: targetFiles.map(\.string))
+    arguments.append(contentsOf: targetFiles.map(\.string).filter {$0.hasSuffix(".swift")})
     
     return .buildCommand(displayName: "SwiftLint", executable: tool.path, arguments: arguments)
 }

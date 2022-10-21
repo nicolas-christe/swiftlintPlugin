@@ -43,7 +43,6 @@ opt_in_rules:
   - fatal_error_message
   - file_header
   - file_name_no_space
-  - file_types_order
   - first_where
   - flatmap_over_map_reduce
   - force_unwrapping
@@ -101,7 +100,6 @@ opt_in_rules:
   - test_case_accessibility
   - toggle_bool
   - trailing_closure
-  - type_contents_order
   - typesafe_array_init
   - unavailable_function
   - unneeded_parentheses_in_closure_argument

@@ -38,7 +38,6 @@ opt_in_rules:
   - explicit_enum_raw_value
   - explicit_init
   - explicit_self
-  - extension_access_modifier
   - fallthrough
   - fatal_error_message
   - file_header
@@ -94,7 +93,6 @@ opt_in_rules:
   - single_test_class
   - sorted_first_last
   - static_operator
-  - strict_fileprivate
   - strong_iboutlet
   - switch_case_on_newline
   - test_case_accessibility

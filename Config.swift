@@ -61,8 +61,6 @@ opt_in_rules:
   - multiline_function_chains
   - multiline_literal_brackets
   - nimble_operator
-  - no_extension_access_modifier
-  - no_grouping_extension
   - nslocalizedstring_key
   - nslocalizedstring_require_bundle
   - number_separator

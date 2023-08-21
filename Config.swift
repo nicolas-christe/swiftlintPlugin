@@ -8,10 +8,8 @@ opt_in_rules:
   - accessibility_label_for_image
   - accessibility_trait_for_button
   - anonymous_argument_in_multiline_closure
-  - anyobject_protocol
   - array_init
   - attributes
-  - capture_variable
   - closure_body_length
   - closure_end_indentation
   - closure_spacing
@@ -37,7 +35,6 @@ opt_in_rules:
   - expiring_todo
   - explicit_enum_raw_value
   - explicit_init
-  - explicit_self
   - fallthrough
   - fatal_error_message
   - file_header
@@ -96,17 +93,15 @@ opt_in_rules:
   - test_case_accessibility
   - toggle_bool
   - trailing_closure
-  - typesafe_array_init
   - unavailable_function
   - unneeded_parentheses_in_closure_argument
   - unowned_variable_capture
   - untyped_error_in_catch
-  - unused_declaration
-  - unused_import
   - vertical_parameter_alignment_on_call
   - weak_delegate
   - xct_specific_matcher
-  - yoda_condition                                                       
+  - yoda_condition   
+
 identifier_name:
   min_length: 3
   excluded:
